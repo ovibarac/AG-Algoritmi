@@ -3,4 +3,4 @@ project(kruskal)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(kruskal kruskal.cpp)
+add_executable(kruskal prufer.cpp)
