@@ -81,13 +81,6 @@ int ford_fulkerson(vector<vector<Muchie>>& G, int s, int t){
             else
                 Gf[m.v][m.u].w += cf;
         }
-        for(int i=0; i<Gf.size(); i++){
-            for(int j = 0; j<Gf.size(); j++){
-                std::cout<<Gf[i][j].w<<' ';
-            }
-            std::cout<<'\n';
-        }
-        std::cout<<'\n';
         f+=cf;
     }
 
@@ -99,15 +92,19 @@ int main(){
     vector<vector<Muchie>> G;
     int n,m;
     read(n, m, G, fin);
-    for(int i=0; i<n; i++){
-        for(int j = 0; j<n; j++){
-            std::cout<<G[i][j].w<<' ';
-        }
-        std::cout<<'\n';
-    }
-    std::cout<<'\n';
-//    vector<Muchie> p;
-//    bfs(G, 0, n-1, p);
     std::cout<<ford_fulkerson(G, 0, n-1);
 
 }
+
+/*
+Input:
+5 6
+0 1 17
+0 4 19
+1 2 15
+2 3 19
+2 4 4
+3 4 1
+Output:
+24
+ */
