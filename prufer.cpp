@@ -54,19 +54,22 @@ vector<int> decodare_prufer(int n, int rad, vector<int>& code){
         code_q.push(c);
         frecv[c]++;
     }
-    for(int i = 0; i<n; i++){
-        int x = code_q.front();
+
+    for(int i = 0; i<n; i++){ //de n ori
+        int x = code_q.front(); //x- primul din cod
         int y = 0;
-        for(int j = 0; j<frecv.size(); j++){
+        for(int j = 0; j<frecv.size(); j++){ //y-cel mai mic care nu apare in cod
             if(frecv[j] == 0){
                 y = j;
                 break;
             }
         }
-        code_q.pop();
+        code_q.pop(); //sterge x
         frecv[x]--;
-        parent[y] = x;
-        code_q.push(y);
+
+        code_q.push(y); //adauga y
+
+        parent[y] = x; //leaga x,y
         frecv[y]++;
     }
     parent[rad] = -1;
