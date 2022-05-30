@@ -66,6 +66,12 @@ build CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj: CXX_COMPILER__kruskal_Debug
   OBJECT_DIR = CMakeFiles\kruskal.dir
   OBJECT_FILE_DIR = CMakeFiles\kruskal.dir
 
+build CMakeFiles/kruskal.dir/pompare_preflux.cpp.obj: CXX_COMPILER__kruskal_Debug D$:/Projects/C++$ projects/Anul$ 1$ Sem$ 2/AG/kruskal/pompare_preflux.cpp || cmake_object_order_depends_target_kruskal
+  DEP_FILE = CMakeFiles\kruskal.dir\pompare_preflux.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\kruskal.dir
+  OBJECT_FILE_DIR = CMakeFiles\kruskal.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target kruskal
@@ -74,7 +80,7 @@ build CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj: CXX_COMPILER__kruskal_Debug
 #############################################
 # Link the executable kruskal.exe
 
-build kruskal.exe: CXX_EXECUTABLE_LINKER__kruskal_Debug CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj
+build kruskal.exe: CXX_EXECUTABLE_LINKER__kruskal_Debug CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj CMakeFiles/kruskal.dir/pompare_preflux.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\kruskal.dir

@@ -1,14 +1,8 @@
 # ninja log v5
 3	1473	6751745125761452	CMakeFiles/kruskal.dir/main.cpp.obj	8b01a169c8fcbae2
-748	894	6755451451823660	kruskal.exe	15988b0bfa708f69
+2542	3436	6756004071503736	kruskal.exe	ab46e1bec04f2e95
 3	863	6755424825795755	CMakeFiles/kruskal.dir/prufer.cpp.obj	b838b657f23c3a1
 0	1477	6751760664057021	CMakeFiles/kruskal.dir/kruskal.cpp.obj	76399b3fcaee7d3f
-1	269	6755545416749649	build.ninja	cf32859868f35542
+1	269	6756051095090265	build.ninja	cf32859868f35542
 3	748	6755451450392464	CMakeFiles/kruskal.dir/huffman.cpp.obj	cef784456153c8cb
-3	1052	6755357061813537	CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj	9d620f6c68260a9f
-0	1215	6755545445508614	CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj	9d620f6c68260a9f
-1217	1487	6755545448206164	kruskal.exe	ab46e1bec04f2e95
-2	990	6755546219324353	CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj	9d620f6c68260a9f
-991	1200	6755546221392590	kruskal.exe	ab46e1bec04f2e95
-3	885	6755546556396571	CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj	9d620f6c68260a9f
-886	1106	6755546558518507	kruskal.exe	ab46e1bec04f2e95
+3	2537	6756004062542666	CMakeFiles/kruskal.dir/ford_fulkerson.cpp.obj	9d620f6c68260a9f

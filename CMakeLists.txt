@@ -3,4 +3,4 @@ project(kruskal)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(kruskal ford_fulkerson.cpp)
+add_executable(kruskal pompare_preflux.cpp)
